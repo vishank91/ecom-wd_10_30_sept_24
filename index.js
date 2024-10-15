@@ -18,7 +18,7 @@ var corsOptions = {
             callback(new Error('You Are not authenciated to access this api'))
         }
     }
-}
+} 
 
 app.use(express.json())
 app.use(cors(corsOptions))
